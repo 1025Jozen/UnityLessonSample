@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/11_State_Command_Singleton/2_1_State/StateScene_Idle_Walk.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/11_State_Command_Singleton/1_Singleton/Singleton2.unity
+    guid: b7edc9f15843048b191163fa1c7518d5
+  - enabled: 1
+    path: Assets/_0_PrimaryProgram/1_BrickBreaker/BrickBreaker.unity
+    guid: 22453f668ae724fd2b82f8e864688e42
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/1_Scenes_Move/Scene_Sample1.unity
+    guid: 281185de2a3934e4485dbcc64afd7221
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/1_Scenes_Move/Scene_Sample2.unity
+    guid: 70caec9a78eef4d67a12407a48aa0f34
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/1_Scenes_Move/Scene_Sample3_Manager.unity
+    guid: ddeaba7b7bcf74074beb4c34108065b5
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/2_Scenes_Load/Scene1_Menu.unity
+    guid: de211ba0d8cbc44938b63033fae40016
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/2_Scenes_Load/Scene2_Game.unity
+    guid: ccbcfb273f8c8445aa53468b2ea3b1d4
+  - enabled: 1
+    path: Assets/_1_Sample_BasicProgram/25_Scene(Move_Load_Quit)/2_Scenes_Load/Scene3_Loading.unity
+    guid: 4555a5e9632ad4bc69e919ed083d3697
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

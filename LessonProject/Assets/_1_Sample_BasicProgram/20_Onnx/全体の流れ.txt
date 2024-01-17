@@ -1,0 +1,14 @@
+プログラムの全体の流れ
+
+1 ONNXファイルをPytorch, TensorFlowやKerasから出力する
+2 .onnxをプロジェクトにインポート
+3 アセットからモデルを読み込む
+4 推論エンジン(Worker)を作成
+5 モデルを実行する
+6 結果を取得する
+
+
+
+
+PackageManagerのGit経由(それかmanifest.json)で
+com.unity.barracudaと打ち込むなどしてインストール

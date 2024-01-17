@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-evenly; position: relative;">
+        <UIToolkitExamplesB.Card thumbnail="project://database/Assets/Textures/fresh%20cream%20sweets.jpg?fileID=2800000&amp;guid=6e7a679d0df9042888a3e194e06c945e&amp;type=3#fresh cream sweets" name="CardA" />
+        <UIToolkitExamplesA.Card name="CardB" />
+    </ui:VisualElement>
+    <UIToolkitExamplesC.Card name="CardC" card-definition="project://database/Assets/_Sample/Etc/06_UI_ToolKit/sampleC/CardDefinition.asset?fileID=11400000&amp;guid=0534fee89c48c496ea62ce6bf12efe7d&amp;type=2#CardDefinition" />
+    <UIToolkitExamplesC.Card name="CardC" card-definition="project://database/Assets/_Sample/Etc/06_UI_ToolKit/sampleC/CardDefinition2.asset?fileID=11400000&amp;guid=bd1725a260a43461f9cae2dd96aac074&amp;type=2#CardDefinition2" />
+</ui:UXML>

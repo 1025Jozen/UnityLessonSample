@@ -1,0 +1,11 @@
+&img eventCG1 eventObject
+あかさたな
+はまやらわ
+をん
+&rmimg eventCG1
+&img background1 backgroundObject
+あsdfghjkl；：」
+&img eventCG2 eventObject
+zxcvbんm、。・
+&rmimg eventCG2
+QWERTYうイオp＠「

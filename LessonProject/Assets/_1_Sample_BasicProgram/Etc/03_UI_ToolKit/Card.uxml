@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Sample/Etc/06_UI_ToolKit/Card.uss?fileID=7433441132597879392&amp;guid=0bcca9f0f99904dde9d5d0a27bf121e7&amp;type=3#Card" />
+    <ui:VisualElement name="Root" class="card">
+        <ui:VisualElement name="Line" class="line" />
+        <ui:VisualElement name="Thumbnail" style="background-color: rgba(0, 0, 0, 0); width: 140px; height: 140px; margin-left: 35px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; background-image: url(&apos;project://database/Assets/Textures/fresh%20cream%20sweets.jpg?fileID=2800000&amp;guid=6e7a679d0df9042888a3e194e06c945e&amp;type=3#fresh cream sweets&apos;); border-top-left-radius: 70px; border-bottom-left-radius: 70px; border-top-right-radius: 70px; border-bottom-right-radius: 70px;" />
+        <ui:VisualElement name="TextArea" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; -unity-font-definition: url(&apos;project://database/Assets/Fonts/LightNovelPOPv2.otf?fileID=12800000&amp;guid=c55aa45ffaa424af88ed3769a5aa1063&amp;type=3#LightNovelPOPv2&apos;);">
+            <ui:Label tabindex="-1" text="Name" display-tooltip-when-elided="true" name="Name" select-line-by-triple-click="true" style="font-size: 32px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: middle-left;" />
+            <ui:Label tabindex="-1" text="長い説明文を入れた時のテストのために適当に打ち込んだ" display-tooltip-when-elided="true" name="Description" enable-rich-text="true" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/LightNovelPOPv2.otf?fileID=12800000&amp;guid=c55aa45ffaa424af88ed3769a5aa1063&amp;type=3#LightNovelPOPv2&apos;); color: rgb(255, 255, 255); font-size: 24px; white-space: normal;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
