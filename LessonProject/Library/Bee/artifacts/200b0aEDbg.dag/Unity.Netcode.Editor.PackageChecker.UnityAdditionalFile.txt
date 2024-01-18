@@ -1,1 +1,1 @@
-/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject
+/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject

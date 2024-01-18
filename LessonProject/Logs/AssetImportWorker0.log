@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject
+/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56093
-Successfully changed project path to: /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject
-/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject
+59738
+Successfully changed project path to: /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject
+/Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,15 +56,15 @@ Successfully changed project path to: /Users/jozenyuto/Desktop/Unity_/Unity_Temp
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4483712384] Host "[IP] 10.17.26.20 [Port] 0 [Flags] 2 [Guid] 4281831509 [EditorId] 4281831509 [Version] 1048832 [Id] OSXEditor(0,JozenYutonoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4409574784] Host "[IP] 10.17.11.30 [Port] 0 [Flags] 2 [Guid] 460658685 [EditorId] 460658685 [Version] 1048832 [Id] OSXEditor(0,JozenYutonoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4483712384] Host "[IP] 10.17.26.20 [Port] 0 [Flags] 2 [Guid] 4281831509 [EditorId] 4281831509 [Version] 1048832 [Id] OSXEditor(0,JozenYutonoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4409574784] Host "[IP] 10.17.11.30 [Port] 0 [Flags] 2 [Guid] 460658685 [EditorId] 460658685 [Version] 1048832 [Id] OSXEditor(0,JozenYutonoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 21.52 ms, found 2 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 30.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.1f1 (46620eadcc07)
 [Subsystems] Discovering subsystems at path /Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject/Assets
+[Subsystems] Discovering subsystems at path /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -75,7 +75,7 @@ Initialize mono
 Mono path[0] = '/Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56510
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56263
 Begin MonoManager ReloadAssembly
 icall.c:1842:
 icall.c:1842:
@@ -91,49 +91,49 @@ Registering precompiled unity dll's ...
 Register platform support module: /Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.005299 seconds.
-- Loaded All Assemblies, in  0.727 seconds
+Registered in 0.006863 seconds.
+- Loaded All Assemblies, in  0.747 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 88 ms
+Android Extension - Scanning For ADB Devices 170 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 icall.c:1842:
 icall.c:1842:
-- Finished resetting the current domain, in  0.511 seconds
-Domain Reload Profiling: 1239ms
-	BeginReloadAssembly (183ms)
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1732ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (184ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (155ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (328ms)
-			TypeCache.Refresh (326ms)
-				TypeCache.ScanAssembly (308ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (349ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (512ms)
+	FinalizeReload (986ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
+		SetupLoadedEditorAssemblies (875ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (245ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			InitializePlatformSupportModulesInManaged (454ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -152,55 +152,55 @@ icall.c:1842:
 icall.c:1842:
 icall.c:1842:
 icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/JozenSample/LessonProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.894 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/UnityLessonSample/LessonProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.009 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.104 seconds
-Domain Reload Profiling: 3998ms
-	BeginReloadAssembly (400ms)
+- Finished resetting the current domain, in  1.816 seconds
+Domain Reload Profiling: 3825ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (123ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (1307ms)
-		LoadAssemblies (585ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (1631ms)
+		LoadAssemblies (609ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (810ms)
-			TypeCache.Refresh (744ms)
-				TypeCache.ScanAssembly (726ms)
-			ScanForSourceGeneratedMonoScriptInfo (42ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2105ms)
+		AnalyzeDomain (1070ms)
+			TypeCache.Refresh (954ms)
+				TypeCache.ScanAssembly (923ms)
+			ScanForSourceGeneratedMonoScriptInfo (68ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (1816ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1608ms)
+		SetupLoadedEditorAssemblies (1219ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
+			InitializePlatformSupportModulesInManaged (50ms)
 			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (448ms)
-			ProcessInitializeOnLoadAttributes (998ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (339ms)
+			ProcessInitializeOnLoadAttributes (753ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launching external process: /Users/jozenyuto/Doc/Program/GameApp/Unity/2023.1.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7622 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 144 unused Assets / (20.5 MB). Loaded Objects now: 8142.
+Unloading 7635 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 144 unused Assets / (20.5 MB). Loaded Objects now: 8155.
 Memory consumption went from 0.61 GB to 0.59 GB.
-Total: 9.375459 ms (FindLiveObjects: 0.331666 ms CreateObjectMapping: 0.157459 ms MarkObjects: 5.020125 ms  DeleteObjects: 3.864625 ms)
+Total: 44.614875 ms (FindLiveObjects: 0.317667 ms CreateObjectMapping: 0.161667 ms MarkObjects: 6.171958 ms  DeleteObjects: 37.963083 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -213,33 +213,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 69596.309234 seconds.
-  path: Assets/Settings/URP_Mosaic_26_Universal Render Pipeline Asset.asset
-  artifactKey: Guid(813996d4b3a3248efbd219b922a00d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP_Mosaic_26_Universal Render Pipeline Asset.asset using Guid(813996d4b3a3248efbd219b922a00d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ad802816e6423fc0db44603829094a') in 0.002623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Switching render pipeline 813996d4b3a3248efbd219b922a00d29 -> bf5842ce938e5479abe91474edd2b990
-Refreshing native plugins compatible for Editor in 6.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (20.5 MB). Loaded Objects now: 8155.
-Memory consumption went from 453.5 MB to 433.0 MB.
-Total: 14.070917 ms (FindLiveObjects: 0.334041 ms CreateObjectMapping: 0.151625 ms MarkObjects: 10.784000 ms  DeleteObjects: 2.799459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

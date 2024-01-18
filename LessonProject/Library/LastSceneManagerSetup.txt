@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_1_Sample_BasicProgram/26_URP_Render/1_URP_Dither/RenderingStudy.unity
+- path: Assets/_1_Sample_BasicProgram/13_JSON_ScriptableObject_Watermelon/3_Addressable/Addressable.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
